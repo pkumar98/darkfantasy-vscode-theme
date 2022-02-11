@@ -1,0 +1,32 @@
+{
+    "name": "darkfantasy",
+    "displayName": "DarkFantasy",
+    "description": "Pleasing Dark Theme",
+    "version": "0.0.1",
+    "publisher": "Pradeep Kumar",
+    "maintainers": ["Pradeep <pradeep98208@gmail.com>"],
+    "repository": {
+        "type" : "git",
+        "url": "https://github.com/pkumar98/darkfantasy-vscode-theme"
+    },
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "darkfantasy",
+        "dark",
+        "modern"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DarkFantasy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DarkFantasy-color-theme.json"
+            }
+        ]
+    }
+}
